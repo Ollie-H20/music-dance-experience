@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body > section{ 
+    background-color: rgb(242,246,247);
+    height: 700px;
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+}
+#imageContainer{
+    display: flex;    
+    justify-content: end;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -700px;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: -200px;
+}
+ul li{
+    top: -600px;
+    display: flex;
+    justify-content: center;
+    padding: 2px 20px;
+}
+#mainSection{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -700px;
+    width: 80%;
+}
+h1{
+    display: flex;
+    font-size: 65px;
+    width: 80%;
+    padding-left: 30%;
+}
+form{
+    font: grey;
+    border: solid lightgray;
+    background-color: rgb(255,255,255);
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+ol{
+    display: flex;
+    padding-left: 15%;
+}
+ol span{
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    color: rgb(255,136,0);
+}
+#thirdPart{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: rgb(255,255,255);
+}
+#divTart{
+    display: flex;
+    justify-content: start;
+    height: 100%;
+}
+img [alt="tart"]{
+    display: flex;
+    justify-content: start;     
+    height: 100%;
+}
+#thirdPart section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-left: 10%;
+
+}
+#thirdPart span{
+    display: flex;
+    padding-top: 20%;
+    color: rgb(255,136,0);
+}
+h2{
+    display: flex;
+    font-size: 35px;
+    width: 60%;
+}
+p{
+    display: flex;
+    width: 60%;
+ 
+}
+#thirdPart button{
+    display: flex;
+    width: 100px;
+    margin-right: 20%;
+    background-color: rgb(255,136,0);
+    border: none;
+}
+#divBreakfast{
+    display: flex;
+    justify-content: end ;
+    height: 100%;
+}
+img [alt="Breakfast bowl"]{
+    display: flex;
+    justify-content: end;
+    height: 100%;
+}
+footer{
+    background-color: rgb(242,246,247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+footer span{
+    display: flex;
+    justify-content: center;
+    color: rgb(255,136,0);
+
+}
+footer h2{
+    display: flex;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.FooterPart{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 3%;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30%, 0%;
+}
+ol button{
+    margin: 0% 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
